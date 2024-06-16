@@ -1,6 +1,6 @@
 import socket
 
-HOST = socket.gethostname()  # Use uppercase for clarity
+HOST = socket.gethostname()  # Use  uppercase for clarity
 PORT = 5000  # Choose a port number above 1024
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
